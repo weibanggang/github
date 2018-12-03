@@ -79,9 +79,7 @@
 				<div class="botton">
 					<a href="#about" class="scroll">About me <span class="fa fa-caret-right"></span></a>
 				</div>
-				<video controls autoplay  name="media" >
-					<source src="http://183.240.120.23/amobile.music.tc.qq.com/C400001KvA9s0jIArY.m4a?guid=4396029880&vkey=AFFA83D4D79105DFEBA30C1A26666835B848D5CB7BAF445953D8AC7171CA8CE0561F826ACCFB37D4ADE34CEB9E88450BCE24675D2F1ADA08&uin=6957&fromtag=66" type="audio/mp4">
-					</video>
+				<audio controls=＂controls＂ autoplay=＂autoplay＂ id="myaudio" src="11.mp3" />
 			</div>
 		</div>
 	</div>
@@ -260,7 +258,7 @@
 					</div>
 					<div class="activity-row agileits w3layouts">
 						<div class="activity-img agileits w3layouts">
-							<h6>2017.05-2017.07</h6>
+							<h6>2018.05-2018.07</h6>
 						</div>
 						<div class="activity-desc agileits w3layouts">
 							<h5>南方学院管理系统<团队项目 负责人></h5>
@@ -519,6 +517,9 @@
 	<script type="text/javascript">
 		$(function () {
 			$('.w3_agile_gallery_grid a').Chocolat();
+			var audio = document.getElementById("myaudio");
+			audio.setAttribute('src', 'http://183.240.120.23/amobile.music.tc.qq.com/C400001KvA9s0jIArY.m4a?guid=4396029880&vkey=AFFA83D4D79105DFEBA30C1A26666835B848D5CB7BAF445953D8AC7171CA8CE0561F826ACCFB37D4ADE34CEB9E88450BCE24675D2F1ADA08&uin=6957&fromtag=66'); // 替换src
+			audio.load();
 		});
 	</script>
 	<!-- //gallery -->
