@@ -12,6 +12,13 @@
 				font-size: 16px;
 				letter-spacing: 0.08em;
 				color: #010101;
+				-webkit-print-color-adjust: exact;
+				
+			}
+
+
+			@page {
+				size: A4;
 			}
 
 			.grxx {
@@ -122,9 +129,7 @@
 				width: 100%;
 			}
 
-			.flex-item {
-				padding: 1px 5px;
-			}
+
 
 			.xm {
 				display: -webkit-flex;
@@ -137,28 +142,36 @@
 			.xm_item {
 				/* //margin: 20px; */
 			}
-			.flex-container img{
-				width: 760px;
-    height: 350px;
+
+			.flex-container img {
+				width: 700px;
+				height: 300px;
+				margin: auto;
 			}
+
+			.flex-container ul {
+				margin: 0;
+				padding: 0px 8px;
+				position: relative;
+				left: 15px;
+			}
+
 			a.gototop {
 				padding: 0;
 			}
 		</style>
 	</head>
 	<body>
-
-		<span id="top"></span>
 		<div id="templatemo_wrapper">
-			<div id="templatmeo_header">
+			<!--div id="templatmeo_header">
 				<div id="templatemo_menu">
 					<ul>
 						<li><a href="#resume">简历</a></li>
 						<li><a href="#cnblogs">博客</a></li>
 						<li><a href="#github">github</a></li>
 					</ul>
-				</div> <!-- end of templatemo_menu -->
-			</div> <!-- end of header -->
+				</div> 
+			</div --> <!-- end of header -->
 			<div id="templatemo_main">
 
 				<div id="resume" class="content_top"></div>
@@ -181,7 +194,7 @@
 							<img src="images/yj.png" />
 						</div>
 						<div class="div_rig">
-							<span>生日 : 1998.09.12</span><br />
+							<span>生日 : 1998.09.14</span><br />
 							<span>所在地 : 广东·珠海</span><br />
 							<span>电话 : 187&nbsp;&nbsp;7620&nbsp;&nbsp;3778</span><br />
 							<p><span>邮箱 : 761273133@qq.com</span></p>
@@ -242,16 +255,16 @@
 							<div class="hxs" style="background-color: #d88c90;"></div>
 							<div class="hx"></div>
 							<div class="flex-container">
-								<div class="flex-item">⚫ 能够熟练使用 MySQL、SQL Server、Redis 等数据库，具有数据库的设计经验以及 SQL 语句的编写;</div>
-								<div class="flex-item">⚫ 能够熟练使用 Spring、SpringMVC、MyBatis、Hibernate、Log4j 等主流框架；</div>
-								<div class="flex-item">⚫ 了解SpringBoot 框架，了解 IoC、AOP、MVC、RESTful 等概念，了解混合式开发；</div>
-								<div class="flex-item">⚫ 能够使用 Shiro 进行最基本的权限管理；</div>
-								<div class="flex-item">⚫ 熟练使用 Maven 进行项目的搭建、熟练使用 Git 版本工具基于 Github 的团队协作开发流程；</div>
-								<div class="flex-item">⚫ 扎实的 Java 基础，能够熟练使用 IDEA、 Eclipse、HBuilder、Tomcat 等工具；</div>
-								<div class="flex-item">⚫ 能够熟悉使用 Java 爬虫、POI 等技术；</div>
-								<div class="flex-item">⚫ 熟练使用 jQuery 和 Bootstrap 构建页面，掌握 Layui、MUI 等框架以及 ECharts 等插件；</div>
-								<div class="flex-item">⚫ 能够熟练使用 VueJS 和 Element、iView 等组件库进行前后端分离项目的开发；</div>
-								<div class="flex-item">⚫ 具备 Word 文档编写规范、能将业务逻辑以思维导图方式展示开发和技术的指导，使用思维导图分析业务逻辑；</div>
+								<ul>
+									<li>熟练使用MySQL、SQL Server数据库，具有数据库的设计经验以及 SQL 语句的编写；了解Redis非关系型数据库；</li>
+									<li>熟练使用 Spring、SpringBoot、SpringMVC、MyBatis、Hibernate等主流框架；</li>
+									<li>熟练使用常用的Java API，包括多线程、IO流、反射等；</li>
+									<li>熟练使用Log4j、Dom4J、poi等框架，掌握Shiro 进行最基本的权限管理；</li>
+									<li>熟练使用IDEA、 Eclipse、HBuilder、Nginx等工具结合Maven项目的搭建，以及使用Git 版本工具基于 Github 的团队协作开发流程；</li>
+									<li>熟练使用 jQuery 和 Bootstrap 构建页面，掌握 Layui、MUI 等框架以及ECharts 等插件；</li>
+									<li>能够使用 VueJS 和 Element、iView 、MUI等组件库进行前后端分离，了解混合式移动开发；</li>
+									<li>能将业务逻辑以思维导图方式展示开发和技术的指导，使用思维导图分析业务逻辑；</li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -264,13 +277,17 @@
 							<div class="hxs" style="background-color: #60a7a1;"></div>
 							<div class="hx"></div>
 							<div class="flex-container">
-								<div class="flex-item">⚫ 2017 年 9 月参加学院新生征文比赛荣获“第三名”</div>
-								<div class="flex-item">⚫ 2018 年 3 月参加学院 2018 届年级项目大赛荣获“第一名”</div>
-								<div class="flex-item">⚫ 2018 年 5 月参加学院 2017 级二学期“ACM 程序设计大赛”荣获“第三名”</div>
-								<div class="flex-item">⚫ 2018 年 7 月在学院班级项目展比赛荣获“第二名”</div>
-								<div class="flex-item">⚫ 2018 年 2 月-2019 年 2 月 一一 担任学生会文体部副部长（优秀干部）</div>
-								<div class="flex-item">⚫ 2018 年 2 月-2019 年 2 月 一一 担任国旗护卫队副队长</div>
-								<div class="flex-item">⚫ 2018 年 9 月-2019 年 2 月 一一 担任学院助教一职（优秀义工）</div>
+								<ul>
+									<li>2017 年 9 月参加学院新生征文比赛荣获“第三名”</li>
+									<li>2018 年 3 月参加学院 2018 届年级项目大赛荣获“第一名”</li>
+									<li>2018 年 5 月参加学院 2017 级二学期“ACM 程序设计大赛”荣获“第三名”</li>
+									<li>2018 年 7 月在学院班级项目展比赛荣获“第二名”</li>
+									<li>2018 年 2 月-2019 年 2 月 一一 担任学生会文体部副部长（优秀干部）</li>
+									<li>2018 年 2 月-2019 年 2 月 一一 担任国旗护卫队副队长</li>
+									<li>2018 年 9 月-2019 年 2 月 一一 担任学院助教一职（优秀义工）</li>
+								</ul>
+
+
 							</div>
 						</div>
 					</div>
@@ -286,7 +303,7 @@
 								<div class="flex-item">
 									&nbsp;&nbsp;&nbsp;&nbsp;喜欢独立研究新的技术，乐于分享，做事很积极也热情，做过学校的助教，有较强的学习能力与
 									责任心。适应环境能力较强，能够很快适应新的团队。做过项目组长，有一定的团队合作意识，善于
-									协调团队中的人际关系。能够虚心接受他人的意见、建议进行对符给予采纳。
+									协调团队中的人际关系。
 								</div>
 							</div>
 						</div>
@@ -306,16 +323,17 @@
 								<p><b>项目类型：</b>团队项目</p>
 								<p><span style="font-size: 16px;"><b>身份职责：</b></span>组长</p>
 								<p><b>负责模块：</b>数据库设计、后台代码编写</p>
-								<p><b>开发语言：</b>C#、SQLServer</p>
 								<p><b>开发工具：</b>Microsoft Visual Studio、Adobe Photoshop CC</p>
+								<p><b>使用技术：</b>C#、SQLServer、Html5、WinForm、爬虫、office插件</p>
 								<p><b>项目介绍：</b></p>
-								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;系统通过验证角色进入对应的后台管理，最高管理员能够直接管理整个系统，整个系统分为管理员、学生、教师、宿舍、图书馆等8大管理，能够很方便的管理学生在校的情况等功能，主要用到的技术有 excel 表格进行导入与导出，采用爬虫技术实现天气预报实时更新，获取学院年级项目展第一名。
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;系统通过验证角色进入对应的后台管理，最高管理员能够直接管理整个系统，整个系统分为管理员、学生、教师、宿舍、图书馆等8大管理，能够很方便的管理学生在校的情况等功能，主要用到的技术有
+									excel 表格进行导入与导出，采用爬虫技术实现天气预报实时更新，获取学院年级项目展第一名。
 									<p><b>项目心得：</b>
 										<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第一次做项目，不知道从哪里下手，该如何的去分工，不管是分工方面还是技术方面，都遇到很多的困难，在遇到困难中，我一直在反思以及总结，同时请教同学和老师，过程中虽然很艰难，但是我们学会了如何去克服，学会如何的去与团队进行分工以及沟通等方面。</p>
 										<br />
-										<img style="height: 250px;" src="images/xkj1.png" />
+										<img src="images/xkj1.png" />
 										<br />
-										<img style="height: 250px;" src="images/xkj2.png" />
+										<img src="images/xkj2.png" />
 										<br />
 
 										<!--学校管理系统-->
@@ -324,12 +342,13 @@
 										<p><b>项目类型：</b>团队项目</p>
 										<p><span style="font-size: 16px;"><b>身份职责：</b></span>组长</p>
 										<p><b>负责模块：</b>数据库设计、后台代码编写</p>
-										<p><b>开发语言：</b>Java、SQLServer</p>
 										<p><b>开发工具：</b>Eclipse、HBuilder、Adobe Photoshop CC</p>
-										<p><b>前端框架：</b>Layui、JQuery</p>
+										<p><b>使用技术：</b>Java、WebSocket、SQLServer、Layui、JQuery、代码自动生成工具</p>
 										<p><b>其他：</b>腾讯云服务器、无亿短信 API</p>
 										<p><b>项目介绍：</b></p>
-										<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;系统能够进行教师上课对学生的考勤，学生成绩的查看以及饭卡余额微信充值，后台管理员操作整个系统。主要使用技术有 WebSocket 实现微信推送充值、文件的上传、数据分页、数据通过 excel 表格导入导出，对部分页面的动态加载静态化，能够防止访问的攻击等功能，数据库的自动备份与数据库的还原，采用无亿平台实现短信验证登录以及腾讯云服务器进行部署项目，利用所学知识（如反射）结合其他技术写代码自动生成工具，在班级项目展获取第二名。
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;系统能够进行教师上课对学生的考勤，学生成绩的查看以及饭卡余额微信充值，后台管理员操作整个系统。主要使用技术有 WebSocket
+											实现微信推送充值、文件的上传、数据分页、数据通过 excel
+											表格导入导出，对部分页面的动态加载静态化，能够防止访问的攻击等功能，数据库的自动备份与数据库的还原，采用无亿平台实现短信验证登录以及腾讯云服务器进行部署项目，利用所学知识（如反射）结合其他技术写代码自动生成工具，在班级项目展获取第二名。
 											<p><b>项目心得：</b>
 												<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这次项目有了很大的进步，能够很好的分工以及沟通，组员能够很快的完成自己的任务，过程中学会如何去安排任务、分析任务、以及如何的去跟进、反馈问题，团队项目需要大家的团队协作，集思广益，同时学会如何去分析业务、处理业务，站到用户的角度去思考问题，也学到了很多新的知识，这才是对自我能力的最大提升。</p>
 												<br />
@@ -337,18 +356,19 @@
 												<br />
 												<img src="images/xy2.png" />
 												<br />
-												
+
 												<!--学生会管理系统-->
 												<p><b>项目名称：</b>南方学生会管理系统</p>
-												<p><b>开发周期：</b>：2018.11 – 2018.03</p>
+												<p><b>开发周期：</b>2018.11 – 2018.02</p>
 												<p><b>项目类型：</b>个人项目</p>
-												<p><b>开发语言：</b>Java、MySQL</p>
 												<p><b>开发工具：</b>IDEA、HBuilder、Adobe Photoshop CC</p>
-<p><b>后台框架：</b>Spring、SpringMVC、MyBatis</p>
-												<p><b>前端框架：</b>Vue-Router、iView、ECharts、axios</p>
+												<p><b>使用技术：</b>Java、MySQL、Log4j、Shiro、axios</p>
+												<p><b>后台框架：</b>Spring、SpringMVC、MyBatis</p>
+												<p><b>前端框架：</b>Vue-Router、iView、ECharts</p>
 												<p><b>其他：</b>腾讯云服务器、腾讯云短信 API、Log4j、Shiro</p>
 												<p><b>项目介绍：</b></p>
-												<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;二学年项目，使用 Maven、GitHub、Vue、MySql、SSM、Echarts、log4j 等开发，该项目实现前后台分离，后端 API 接口基本实现，下一步做出手机 app 端，利用 Spring AOP 实现权限的管理，使用 Echarts 进行报表，使用 github 同步项目，正在对该项目 APP 端下一步进行分析。
+												<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学生会事情繁重，难以有效管理，该系统可进行对学院的事务进行有效的管理。
+												<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主要使用技术有MySql、Maven、GitHub、Spring、SpringMVC、MyBatis、Echarts、Log4j、Vue、iView等开发，项目采用前后端分离技术，使用Shiro进行权限管理，使用Echarts进行数据的报表，使用github同步项目。
 													<p><b>项目心得：</b>
 														<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人项目设计出来后，请教同学和老师，都有各自观点，需要分析很多的的功能，从客户角度考虑，同时在分析过程中有很多的收获，比如开会考勤，我们能不能使用手机扫描本次开会的二维码直接记录考勤，考虑到有些学校是不能携带手机的，该如何去设计，让系统更加的完善等方面。只有通过实践才能有出收获，而一个项目的创建并不是简简单单的进行编程而已。在动手之前，一定要分析好相关业务逻辑，整理好功能需求，明确目标。做项目之前理清思路可以帮助我们快速编程，防止编程中思维混乱，或者发现某部分功能不符合需求，删掉重来的情况。</p>
 														<br />
